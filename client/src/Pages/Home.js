@@ -11,9 +11,12 @@ import {
   Gallery,
   Footer,
   ScrollTop,
+  Loading,
+  LoadingSmall,
 } from "../Imports/Index";
 const Home = () => {
   const { isAdmin } = useSelector((state) => state.data);
+  const { product } = useSelector((state) => state.product);
   const navigate = useNavigate();
   useEffect(() => {
     if (isAdmin) {
@@ -31,6 +34,7 @@ const Home = () => {
       <StepContainer />
       <Gallery />
       <Footer />
+      {product.length === 0 && <LoadingSmall />}
     </>
   );
 };

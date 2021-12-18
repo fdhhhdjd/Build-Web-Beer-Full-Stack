@@ -1,9 +1,0 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import LoadingAuthentication from "../Loading/LoadingAuthentication";
-const LoadingAuthentication = ({ children, ...rest }) => {
-  const { isLogout } = useSelector((state) => state.data);
-  return !isLogout ? children : <LoadingAuthentication />;
-};
-
-export default LoadingAuthentication;
