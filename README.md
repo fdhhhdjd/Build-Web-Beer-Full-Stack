@@ -40,7 +40,7 @@ User,Admin :
   
  Trang cá nhân thắc mắc liên hệ tôi :https://profile-forme.surge.sh/
   + Thank For <3 
-  + Nguyễn Tiến Tài 
+  + Nguyễn Tiến Tài. 
  
  
   
