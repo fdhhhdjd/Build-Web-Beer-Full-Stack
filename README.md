@@ -16,13 +16,15 @@ User :
    - Đăng ký tài khoản : post -->https://beerclup.herokuapp.com/user/register 
    - Đăng nhập tài khoản: post -->https://beerclup.herokuapp.com/user/login 
    - Refresh token  : get --> https://beerclup.herokuapp.com/user/refresh_token 
-   - Đăng xuất tài khoản admin : get --> https://beerclup.herokuapp.com/user/logout e 
+   - Đăng xuất tài khoản admin : get --> https://beerclup.herokuapp.com/user/logout  
    - Thông tin Tài Khoản : get --> https://beerclup.herokuapp.com/user/infor
    - Thông tin Tất cả tài khoản mua trong thời gian qua : get --> https://beerclup.herokuapp.com/user/chart
  
  Cart : 
    - Add giỏ hàng mỗi User : patch --> https://beerclup.herokuapp.com/user/addcart
    - Lịch sử mua hàng : get --> https://beerclup.herokuapp.com/user/history 
+
+
  Category:
   - Lấy category và thêm category : get,post --> https://beerclup.herokuapp.com/api/category
   - Xóa category và sữa : delete,put --> https://beerclup.herokuapp.com/api/category/:id
