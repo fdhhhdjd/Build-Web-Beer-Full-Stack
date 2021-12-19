@@ -12,7 +12,7 @@ Note: Tiết kiệm giùm cloud nhá cảm ơn các bạn sẽ được cập nh
    - Thêm sản phẩm: post --> https://beerclup.herokuapp.com/api/products    
    - Xóa chỉnh sữa sản phẩm --> https://beerclup.herokuapp.com/api/products/:id  
 
-User : 
+User,Admin : 
    - Xem danh sách toàn bộ tài khoản : get -->https://beerclup.herokuapp.com/user/getuser
    - Đăng ký tài khoản : post -->https://beerclup.herokuapp.com/user/register 
    - Đăng nhập tài khoản: post -->https://beerclup.herokuapp.com/user/login 
