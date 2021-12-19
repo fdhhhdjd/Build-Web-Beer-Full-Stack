@@ -3,7 +3,7 @@ Note: Hướng dẫn sử dụng Api Free Forme để các bạn học tập !!
 Note: Khuyến cáo Không được phá dưới mọi hình thức cảm ơn !
 
 Note. API Chính chủ Tài Heo FA
-Note: Tiết kiêm giùm cloud nhá cảm ơn các bạn sẽ được cập nhật thêm :)
+Note: Tiết kiệm giùm cloud nhá cảm ơn các bạn sẽ được cập nhật thêm :)
 
  Mỗi user một tài khoản riêng một token riêng 0 là user 1 là admin  ====(auth,authAdmin)===
  
