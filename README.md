@@ -11,7 +11,7 @@ Note: Tiết kiệm giùm cloud nhá cảm ơn các bạn sẽ được cập nh
  Product : 
    - Xem danh sách toàn bộ sản phẩm: get -->https://beerclup.herokuapp.com/api/products 
    - Thêm sản phẩm: post --> https://beerclup.herokuapp.com/api/products    
-   - Xóa chỉnh sữa sản phẩm --> https://beerclup.herokuapp.com/api/products/:id  
+   - Xóa chỉnh sữa sản phẩm:put,delete --> https://beerclup.herokuapp.com/api/products/:id  
 
 User,Admin : 
    - Xem danh sách toàn bộ tài khoản : get -->https://beerclup.herokuapp.com/user/getuser
