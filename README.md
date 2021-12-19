@@ -1,35 +1,48 @@
-Hướng dẫn sử dụng Api Free Forme!!!
-Khuyến cáo Không được phá dưới mọi hinh thức !
+Note: Hướng dẫn sử dụng Api Free Forme để các bạn học tập !!
 
-Api chính chủ Tài Heo Dev 
+Note: Khuyến cáo Không được phá dưới mọi hình thức cảm ơn !
 
-+ Product 
-get --> https://beerclup.herokuapp.com/api/products
-post --> https://beerclup.herokuapp.com/api/products   ===(auth, authAdmin)===
-delete,put--> https://beerclup.herokuapp.com/api/products/:id  ===(auth, authAdmin)===
+Note. API Chính chủ Tài Heo FA.
 
-+ Login , Register , Info , Refresh_token , addcart , history
+Note: Tiết kiệm giùm cloud nhá cảm ơn các bạn sẽ được cập nhật thêm :)
 
-+ Mỗi user một tài khoản riêng một token riêng 0 là user 1 là admin  ====(auth,authAdmin)===
+ Mỗi user một tài khoản riêng một token riêng 0 là user 1 là admin  ====(auth,authAdmin)===
+ 
+ Product : 
+   - Xem danh sách toàn bộ sản phẩm: get -->https://beerclup.herokuapp.com/api/products 
+   - Thêm sản phẩm: post --> https://beerclup.herokuapp.com/api/products    
+   - Xóa chỉnh sữa sản phẩm:put,delete --> https://beerclup.herokuapp.com/api/products/:id  
 
-post -->https://beerclup.herokuapp.com/user/register
-post -->https://beerclup.herokuapp.com/user/login
-get --> https://beerclup.herokuapp.com/user/logout
-get --> https://beerclup.herokuapp.com/user/info    ====(auth)===
-get --> https://beerclup.herokuapp.com/user/refresh_token     ====(auth)===
-patch --> https://beerclup.herokuapp.com/user/addcart
-get --> https://beerclup.herokuapp.com/user/history      ====(auth)===
+User,Admin : 
+   - Xem danh sách toàn bộ tài khoản : get -->https://beerclup.herokuapp.com/user/getuser
+   - Đăng ký tài khoản : post -->https://beerclup.herokuapp.com/user/register 
+   - Đăng nhập tài khoản: post -->https://beerclup.herokuapp.com/user/login 
+   - Refresh token  : get --> https://beerclup.herokuapp.com/user/refresh_token 
+   - Đăng xuất tài khoản admin : get --> https://beerclup.herokuapp.com/user/logout  
+   - Thông tin Tài Khoản : get --> https://beerclup.herokuapp.com/user/infor
+   - Thông tin Tất cả tài khoản mua trong thời gian qua : get --> https://beerclup.herokuapp.com/user/chart
+ 
+ Cart : 
+   - Add giỏ hàng mỗi User : patch --> https://beerclup.herokuapp.com/user/addcart
+   - Lịch sử mua hàng : get --> https://beerclup.herokuapp.com/user/history 
 
 
-+ Category
-get,post --> https://beerclup.herokuapp.com/api/category  ===(auth, authAdmin)===
-delete,put --> https://beerclup.herokuapp.com/api/category/:id  ===(auth, authAdmin)===
+ Category:
+  - Lấy category và thêm category : get,post --> https://beerclup.herokuapp.com/api/category
+  - Xóa category và sữa : delete,put --> https://beerclup.herokuapp.com/api/category/:id
 
-+Payment
-get --> https://beerclup.herokuapp.com/api/payment    ===(auth, authAdmin)===
-post --> https://beerclup.herokuapp.com/api/payment    ===(auth)===
+ Payment:
+  - Lấy dữ liệu khi tính tiền gồm cart và thông tin : get --> https://beerclup.herokuapp.com/api/payment
+  - Gửi dữ liệu người dùng khi mua : post --> https://beerclup.herokuapp.com/api/payment
+  
+ Cloud lưu trữ ảnh::
+  - Gửi ảnh lên lưu trữ cloud: post -->https://beerclup.herokuapp.com/api/upload
+  - Xóa ảnh và xóa trên cloud : post -->https://beerclup.herokuapp.com/api/destroy
+  
+ Trang cá nhân thắc mắc liên hệ tôi :https://profile-forme.surge.sh/
+  + Thank For <3 
+  + Nguyễn Tiến Tài. 
+ 
+ 
+  
 
-upload image product Admin lên cloud của tui nên tiết kiệm giúp nhá :Đ
-
-post -->https://beerclup.herokuapp.com/api/upload    ===(auth, authAdmin)===
-post -->https://beerclup.herokuapp.com/api/destroy   ===(auth, authAdmin)===
