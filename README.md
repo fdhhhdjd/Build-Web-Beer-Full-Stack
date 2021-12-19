@@ -1,5 +1,5 @@
-Hướng dẫn sử dụng Api Free Forme!!!
-Khuyến cáo Không được phá dưới mọi hinh thức !
+Note: Hướng dẫn sử dụng Api Free Forme để các bạn học tập !!!
+Note: Khuyến cáo Không được phá dưới mọi hinh thức cảm ơn !
 
 Note. API Chính chủ Tài Heo FA
 Note: Tiết kiêm giùm cloud nhá cảm ơn các bạn sẽ được cập nhật thêm :)
