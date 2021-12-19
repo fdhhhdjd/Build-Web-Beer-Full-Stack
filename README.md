@@ -36,6 +36,9 @@ User :
   - Xóa ảnh và xóa trên cloud : post -->https://beerclup.herokuapp.com/api/destroy
   
  Trang cá nhân thắc mắc liên hệ tôi :https://profile-forme.surge.sh/
- +Thank For <3 
+  + Thank For <3 
+  + Nguyễn Tiến Tài 
+ 
+ 
   
 
